@@ -1,0 +1,68 @@
+
+.start {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  
+    .header-start {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .card {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border-radius: 15px;
+        background-color: $color-bg-light;
+        text-align: center;
+    }
+  
+    .pick-mark {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .player-mark {
+        width: 100%;
+        background-color: $color-bg-dark;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+  
+      span {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $color-bg-light;
+        }
+  
+        &.player-mark-active {
+            background-color: $color-gray;
+            box-shadow: 0 0 8px rgba(255, 255, 255, 0.2); 
+        }
+      }
+    }
+  
+    .note-mark {
+      font-size: 14px;
+      color: #888;
+      margin-top: 10px;
+    }
+  
+    .start-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+  }
+}

@@ -1,0 +1,135 @@
+
+
+.card {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-radius: 15px;
+  background-color: $color-bg-light;
+  text-align: center;
+  text-transform: uppercase;
+
+  &.bg-light{
+    background-color: $color-gray;
+    color: $color-bg-dark;
+  }
+  &.bg-blue {
+    background-color: $color-blue;
+    color: $color-bg-dark;
+  }
+  &.bg-yellow {
+    background-color:$color-yellow;
+    color: $color-bg-dark;
+  }
+}
+
+
+.text {
+  font-size: 1rem;
+
+  &-large {
+    font-size: 1.25rem;
+  }
+
+  &-footer {
+    font-size: 1.725rem;
+  }
+
+  &-light {
+    color: $color-gray-dark;
+  }
+
+  &-blue {
+    color: $color-blue;
+  }
+
+  &-yellow {
+    color: $color-yellow;
+  }
+}
+
+
+
+.bg-blue.text-light,
+.bg-blue .text-light,
+.bg-yellow.text-light,
+.bg-yellow .text-light,
+.bg-light.text-light,
+.bg-light .text-light {
+  color: $color-bg-light;
+}
+
+
+.btn {
+  background-color: $color-gray;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 $shadow-y 0 $color-gray-dark;
+  margin-bottom: 8px;
+  display: inline-block;
+  color: $color-bg-light;
+
+  &:hover {
+    $shadow-y: 8px;
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(1px);
+    $shadow-y: 4px;
+  }
+
+  &.btn-small {
+    $shadow-y: 4px;
+
+    &:hover {
+      $shadow-y: 6px;
+      background-color: $silver-hover;
+    }
+    
+    &.btn-yellow:hover {
+      background-color: $light-yellow;
+    }
+
+    &.btn-blue:hover {
+      background-color: $light-blue;
+    }
+
+    &:active {
+      $shadow-y: 3px;
+    }
+  }
+}
+
+.btn-yellow {
+  background-color: $color-yellow;
+  box-shadow: 0 $shadow-y 0 $color-yellow-dark;
+  &:hover{
+    background-color: $light-yellow;
+  }
+}
+
+.btn-blue {
+  background-color: $color-blue;
+  box-shadow: 0 $shadow-y 0 $color-blue-dark;
+  &:hover {
+    background-color: $light-blue;
+  }
+}
+
+.shadow-gray {
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+.shadow-blue {
+  box-shadow: 0 8px 0 $color-blue-dark;
+}
+.shadow-yellow {
+  box-shadow: 0 8px 0 $color-yellow-dark;
+}

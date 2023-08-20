@@ -1,0 +1,42 @@
+$color-bg-dark: #192a33;
+$color-bg-light: #1f3640;
+$color-gray: #a8bec9;
+$color-gray-dark: #7a8991;
+$color-yellow: #f2b238;
+$color-yellow-dark: #cd8d16;
+$color-blue: #30c4be;
+$color-blue-dark: #128c89;
+$light-yellow: #ffc860;
+$light-blue: #65e9e4;
+$silver-hover: #dbe8ed;
+
+$shadow-y: 6px;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: $color-bg-dark;
+    color: $color-gray;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+.container {
+    max-width: 450px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 2rem 1rem;
+}
