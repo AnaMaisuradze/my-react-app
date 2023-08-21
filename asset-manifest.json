@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "//anamaisuradze.github.io/my-react-app/static/css/main.62bc66cb.css",
-    "main.js": "//anamaisuradze.github.io/my-react-app/static/js/main.d6c3de5e.js",
-    "index.html": "//anamaisuradze.github.io/my-react-app/index.html",
-    "main.62bc66cb.css.map": "//anamaisuradze.github.io/my-react-app/static/css/main.62bc66cb.css.map",
-    "main.d6c3de5e.js.map": "//anamaisuradze.github.io/my-react-app/static/js/main.d6c3de5e.js.map"
+    "main.css": "/my-react-app/static/css/main.62bc66cb.css",
+    "main.js": "/my-react-app/static/js/main.d6c3de5e.js",
+    "index.html": "/my-react-app/index.html",
+    "main.62bc66cb.css.map": "/my-react-app/static/css/main.62bc66cb.css.map",
+    "main.d6c3de5e.js.map": "/my-react-app/static/js/main.d6c3de5e.js.map"
   },
   "entrypoints": [
     "static/css/main.62bc66cb.css",
